@@ -457,3 +457,76 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+
+.alignment{
+  text-align: left;
+  color: rgba(74,74,74,.9);
+  margin-left: 15px;
+}
+
+.contact-information{
+  margin-top: 20px;
+  text-align: center;
+}
+
+form {
+    align: center;
+}
+
+label {
+  display:block;
+  position: relative;
+  margin-top:20px;
+  letter-spacing:2px;
+}
+
+input, textarea {
+  width:90%;
+  height:47px;
+  background:#f5f5f5;
+/*  border-radius:5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;*/
+  border:1px solid #dedede;
+  padding:10px;
+  margin-top:3px;
+  font-size:0.9em;
+  color:rgba(74,74,74,3.9);
+}
+
+  input:focus, textarea:focus {
+    border:1px solid #f5f5f5;
+    background-color: #fcfcfc;
+  }
+
+textarea {
+  height:213px;
+  font-family: 'Open Sans', sans-serif;
+  background:#f5f5f5;
+}
+
+#submit {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  width:127px;
+  height:40px;
+  border:1px solid rgba(74,74,74,3.9);
+  margin-top:25px;
+  cursor:pointer;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+}
+#submit:hover{
+  background-color: #000;
+  color: #fff;
+  transition: all .6s ease ;
+  -webkit-transition: all .6s ease;
+  -moz-transition: all .6s ease;
+  -o-transition: all .6s ease;
+}
+
+#profile-pic {
+    position: relative;
+    width: 70%;
+    height: 80%;
+}
