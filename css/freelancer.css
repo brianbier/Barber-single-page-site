@@ -399,11 +399,17 @@ section.success a.active {
 form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eee;
 }
+.footer-background{
+    background-color: #333333;
+    color: #fff;
+    padding-bottom: 30px;
 
+}
 footer {
     color: #fff;
     position: relative;
     bottom: 0;
+    background: #333333;
 }
 
 footer h3 {
@@ -420,9 +426,6 @@ footer .footer-col {
 }
 
 footer .footer-below {
-    padding: 25px 0;
-    padding-bottom: 50px;
-    background-color: #333333;
 }
 
 .btn-social {
