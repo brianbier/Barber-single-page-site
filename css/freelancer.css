@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    background-color:#c7cacd;
+    background-color:#dcdcdc;
 }
 
 p {
@@ -68,12 +68,12 @@ hr.star-light:after {
 }
 
 hr.star-primary {
-    border-color: #2c3e50;
+    border-color: #333333;
 }
 
 hr.star-primary:after {
-    color: #2c3e50;
-    background-color: #c7cacd;
+    color: #333333;
+    background-color: #dcdcdc;
 }
 
 .img-centered {
@@ -83,7 +83,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: #dcdcdc;
 }
 
 header .container {
@@ -471,6 +471,7 @@ footer .footer-below {
 .contact-information{
   margin-top: 20px;
   text-align: center;
+  color: #333333;
 }
 
 form {
