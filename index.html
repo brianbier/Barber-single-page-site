@@ -59,6 +59,9 @@
                     <li class="page-scroll">
                         <a href="#about">About</a>
                     </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -143,6 +146,7 @@
                     <hr class="star-light">
                 </div>
             </div>
+            <div class="about-me-content">
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
                     <img id="profile-pic" src="./img/profile_placeholder.jpg">
@@ -152,29 +156,30 @@
                 </div>
                 
             </div>
+            </div>
         </div>
     </section>
-
     <section id="contact">
-                <h1 class="contact-information" >Contact</h1>
-                <hr class="star-primary">
+    <h1 class="contact-information" >Contact Me</h1>
+        <hr class="star-primary">
+
+        <form id="form-input" action="https://formspree.io/akeemstreet@gmail.com" method="POST">
+            <!-- <label>Name</label> -->
+            <input pattern=".{4,16}" placeholder="Name" type="text" name="name">
+
+            <!-- <label>Phone</label> -->
+            <input pattern=".{8,}" placeholder="Phone" type="text" name="phone">
+
+            <!-- <label>Email</label> -->
+            <input pattern=".{4,}" placeholder="Email" type="email" name="_replyto">
             
-          <form class="contact-information" id="form-input" action="https://formspree.io/akeemstreet@gmail.com" method="POST">
-       
-            <label>Name</label>
-            <input placeholder="Name" type="text" name="name">
-           
-            <label>Phone</label>
-            <input placeholder="Phone" type="text" name="phone">
-            
-            <label>Email</label>
-            <input placeholder="Email" type="email" name="_replyto">
-            <label>Message</label>
+            <!-- <label>Message</label> -->
             <textarea type="text" name="message" placeholder="Your Message" maxlength="200" minlength="5" required=""></textarea>
             <br>
+            <input type="hidden" name="_next" value="contact.html" />
+            <input type="text" name="_gotcha" style="display:none" /><br>
             <input id="submit" type="submit" value="Send">
-          </form>
-          
+        </form>
     </section>
 
     <!-- Footer -->
