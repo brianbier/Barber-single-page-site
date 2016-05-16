@@ -546,3 +546,6 @@ footer .footer-below {
     width: 70%;
     height: 80%;
 }
+
+.slideshow { width: 80%; height: 300px; margin: auto; border: 1px solid #bbb; background: #ffc }
+.slideshow img { opacity: 0; filter:alpha(opacity=0); }
