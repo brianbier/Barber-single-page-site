@@ -13,6 +13,9 @@ body {
 .item,
 .active {
     height: 100%;
+}
+
+.carousel, .item{
     margin-top: 3rem;
 }
 
