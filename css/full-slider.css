@@ -11,7 +11,7 @@ body {
 
 .carousel,
 .item,
-.active {
+.carousel {
     height: 100%;
     margin-top: 3rem;
 }
