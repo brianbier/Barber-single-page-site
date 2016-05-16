@@ -13,16 +13,18 @@ body {
 .item,
 .active {
     height: 100%;
+    margin-top: 3rem;
 }
 
 .carousel-inner {
     height: 100%;
+
 }
 
 /* Background images are set within the HTML using inline CSS, not here */
 
 .fill {
-    width: 100%;
+    width: 10em;
     height: 100%;
     background-position: center;
     background: no-repeat;
